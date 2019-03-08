@@ -1,0 +1,246 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>Sally Lee's Quidditch Match</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>selee</username>
+
+<randSeed>35</randSeed>
+<totalLives>3</totalLives>
+<winningScore>100</winningScore>
+<numberOfQuaffles>5</numberOfQuaffles>
+<numberOfDementors>4</numberOfDementors>
+<numberOfBludgers>0</numberOfBludgers>
+<numberOfSnitch>1</numberOfSnitch>
+
+<backgroundMusic>sound/background_hedwig_theme.mp3</backgroundMusic>
+
+<scaled>
+  <numberQuaffles>0</numberQuaffles>
+  <numberDementors>0</numberDementors>
+  <numberBludgers>0</numberBludgers>
+  <rangeX max="2350" min="450"/>
+  <rangeY max="750" min="100"/>
+  <rangeScale max=".3" min=".6"/>
+</scaled>
+
+<view>
+  <width>1270</width>
+  <height>720</height>
+  <loc x="30" y="30"/>
+</view>
+
+<world>
+  <width>2800</width>
+  <height>1200</height>
+</world>
+
+<field>
+  <file>assets/field.png</file>
+  <factor>3</factor>
+  <transparency>false</transparency>
+</field>
+
+<hills>
+  <file>assets/treeHills.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</hills>
+
+<sky>
+  <file>assets/sky.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</sky>
+
+<won>
+  <file>assets/winningTheMatch.png</file>
+  <factor>4</factor>
+  <transparency>false</transparency>
+</won>
+
+<lost>
+  <file>assets/Dementors_Quidditch.png</file>
+  <factor>4</factor>
+  <transparency>false</transparency>
+</lost>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<HUD>
+  <red>255</red>
+  <green>40</green>
+  <blue>0</blue>
+  <transparency>125</transparency>
+  <height>320</height>
+  <width>250</width>
+  <move>ASDW: move</move>
+  <shoot>Space: kills dementors</shoot>
+  <toggle>F1: toggle HUD</toggle>
+  <toggleDir>F2: toggle Directions</toggleDir>
+  <toggleSound>F3: toggle Sound</toggleSound>
+  <pause>P: pause</pause>
+  <restart>R: restart</restart>
+  <godMode>G: god mode</godMode>
+  <quit>Q or Esc: quit</quit>
+  <direction dir1="Collect quaffles and the"
+             dir2="snitch to earn points to win"
+             dir3="but avoid the dementors!"
+             height="100"
+             width="300"
+             xLoc="685"/>
+  <xLoc>1000</xLoc>
+  <yLoc>15</yLoc>
+</HUD>
+
+<snitch>
+  <file>assets/SnitchMulti.png</file>
+  <startLoc x="250" y="300"/>
+  <isRand>1</isRand>
+  <rangeX max="2700" min="0" speed="15"/>
+  <rangeY max="600" min="0" speed="15"/>
+  <isBound>0</isBound>
+  <frames>8</frames>
+  <strategy>perpixel</strategy>
+  <frameInterval>40</frameInterval>
+  <speedX>250</speedX>
+  <speedY>250</speedY>
+  <notifyDistance>300</notifyDistance>
+  <toReplace>false</toReplace>
+  <isAvoiding>true</isAvoiding>
+  <bulletKill>false</bulletKill>
+  <knowledgeOdds upDown="1" leftRight="1"/>
+  <dumbRange x="0" y="0"/>
+  <pointVal>30</pointVal>
+  <transparency>false</transparency>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+  <sound>sound/Boom.wav</sound>
+</snitch>
+
+<bludger> 
+  <file>assets/bludger.png</file> 
+  <startLoc x="250" y="350"/>
+  <isRand>1</isRand>
+  <rangeX max="2700" min="0" speed="20"/>
+  <rangeY max="1100" min="0" speed="15"/>
+  <isBound>0</isBound>
+  <frames>1</frames>
+  <strategy>perpixel</strategy>
+  <frameInterval>75</frameInterval>
+  <speedX>275</speedX> 
+  <speedY>175</speedY>
+  <notifyDistance>500</notifyDistance>
+  <toReplace>true</toReplace>
+  <isAvoiding>false</isAvoiding>
+  <bulletKill>false</bulletKill>
+  <knowledgeOdds upDown="4" leftRight="4"/>
+  <dumbRange x="0" y="0"/>
+  <pointVal>0</pointVal>
+  <transparency>false</transparency> 
+  <chunk>
+    <size>16</size>
+    <distance>100</distance>
+  </chunk>
+</bludger>
+
+<quaffle>
+  <file>assets/quaffle2way.png</file>
+  <startLoc x="1400" y="500"/>
+  <isRand>1</isRand>
+  <rangeX max="2700" min="300" speed="20"/>
+  <rangeY max="1100" min="100" speed="30"/>
+  <isBound>0</isBound>
+  <strategy>perpixel</strategy>
+  <frames>8</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <notifyDistance>300</notifyDistance>
+  <toReplace>true</toReplace>
+  <isAvoiding>true</isAvoiding>
+  <bulletKill>false</bulletKill>
+  <knowledgeOdds upDown="3" leftRight="3"/>
+  <dumbRange x="0" y="0"/>
+  <pointVal>10</pointVal>
+  <transparency>false</transparency>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+</quaffle>
+
+<Harry>
+  <file>assets/HP2way.png</file>
+  <bullet>patronus</bullet>
+  <startLoc x="50" y="860"/>
+  <isRand>0</isRand>
+  <isBound>0</isBound>
+  <frames>12</frames>
+  <frameInterval>120</frameInterval>
+  <speedX>300</speedX>
+  <speedY>300</speedY>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>false</transparency>
+</Harry>
+
+<patronus>
+  <file>assets/patronus2waySimple.png</file>
+  <interval>300</interval>
+  <distance>320</distance>
+  <startLoc x="100" y="100"/>
+  <isRand>0</isRand>
+  <isBound>0</isBound>
+  <speedX>350</speedX>
+  <speedY>0</speedY>
+  <strategy>perpixel</strategy>
+  <frames>14</frames>
+  <frameInterval>120</frameInterval>
+  <transparency>false</transparency>
+</patronus>
+
+<dementor>
+  <file>assets/dementor.png</file>
+  <startLoc x="1200" y="100"/>
+  <isRand>1</isRand>
+  <rangeX max="2800" min="300" speed="10"/>
+  <rangeY max="1100" min="0" speed="20"/>
+  <isBound>0</isBound>
+  <strategy>midpoint</strategy>
+  <frames>8</frames>
+  <frameInterval>75</frameInterval>
+  <speedX>-200</speedX>
+  <speedY>-100</speedY>
+  <notifyDistance>400</notifyDistance>
+  <toReplace>false</toReplace>
+  <isAvoiding>false</isAvoiding>
+  <bulletKill>true</bulletKill>
+  <knowledgeOdds upDown="2" leftRight="4"/>
+  <dumbRange x="100" y="50"/>
+  <pointVal>0</pointVal>
+  <transparency>false</transparency>
+  <chunk>
+    <size>25</size>
+    <distance>200</distance>
+  </chunk>
+</dementor>
+
+</GameData>
