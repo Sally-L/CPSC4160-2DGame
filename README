@@ -1,0 +1,45 @@
+Name: Sally Lee
+
+Course: CPSC 4160
+
+Project no: 6
+
+Project due date: December 12, 2018 at 7:00 pm
+
+Project description:
+For this semester long project, I used inheritance, polymorphism, different design
+patturns, etc. to create a data driven 2D game of a Harry Potter Quidditch match.
+
+Additions for Project 6:
+I added more functionality for explosions.  I made it such that
+when a player explodes, all of the smart sprites go to EVADE or NORMAL mode so
+that when the player comes back, it won't immediatly die by accident.  I also gave
+the player 3 lives that are lost when the dementors attack it.  I created a god
+mode so that the player can play without dying.  I added in conclusions for both
+when the player dies 3 times and when the player collects 100 points to win.
+I also added music and sound effects such as Hedwig's theme song, Harry yelling a 
+spell when a two way patronus spell bullet is sent, etc.
+
+Where I got my backgrounds & sprites:
+sky: http://www.textures.com/system/gallery/photos/Landscapes/Skies%20Partial/16294/Skies0239_600.jpg?v=5
+hills: https://www.wallpapersbyte.com/nature/download-hd-green-mountains-grass-field-summer-day-wallpaper/
+quidditch pitch: https://3dexport.com/3dmodel-quidditch-187718.htm
+wonScreen: http://harrypotter.wikia.com/wiki/Inter-House_Quidditch_Cup
+lostScreen: http://harrypotter.wikia.com/wiki/File:Dementors_Quidditch.jpg
+
+Harry Potter and Snitch gif: https://dribbble.com/shots/3794366-Mr-Potter
+Dementor: https://www.deviantart.com/masked-massacre/art/Dementor-Pose-463753535
+Quaffle gif: https://www.reddit.com/r/harrypotter/comments/9grndc/wood_knows_golf_but_not_basketball/
+Bludger: https://www.amazon.com/Wizarding-World-Harry-Potter-Quidditch/dp/B00S0LPOK2
+eventually patronus gif: https://inspirationandwriting.wordpress.com/tag/harry-potter/
+
+Life saver website that converts gifs to frames/sprite sheets and allows you to edit them: https://ezgif.com/split
+
+Where I got my music:
+10 points for gryffindor: https://www.youtube.com/watch?v=1A6z7R-aaDw
+background music: Background Music: https://www.youtube.com/watch?v=wtHra9tFISY
+Expecto patronum and death: https://www.youtube.com/watch?v=YznIACku9CQ
+go, go Gryfindor and snitch: https://www.youtube.com/watch?v=F3FPSYcUY48
+player explodes dementor, dementor: https://www.youtube.com/watch?v=Ut7VuDNHgLw
+dementor death: https://www.youtube.com/watch?v=D4YekAXr8uM
+
